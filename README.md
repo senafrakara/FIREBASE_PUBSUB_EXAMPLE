@@ -131,9 +131,7 @@ Pub/Sub kullanmak için önce topic'leri oluşturmanız gerekir. Üç yöntem va
 gcloud config set project YOUR-PROJECT-ID
 
 # Topic oluşturun
-gcloud pubsub topics create topic-name
-gcloud pubsub topics create another-topic-name
-gcloud pubsub topics create yet-another-topic-name
+gcloud pubsub topics create your-topic-name
 gcloud pubsub topics create orders
 
 # Oluşturduğunuz topic'leri listeleyin
